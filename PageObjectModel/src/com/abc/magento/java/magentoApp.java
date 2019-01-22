@@ -11,7 +11,7 @@ public class magentoApp
 	public static void main(String[] args) 
 	{
 		String url ="http:///www.magento.com";
-		WebDriver driver new =ChromeDriver();
+		WebDriver driver new =FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get(url);
